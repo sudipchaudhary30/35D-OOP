@@ -16,8 +16,8 @@ public class InputOutput {
          System.out.printf("Hello %s, good morning", "world");
          System.out.printf("The number is %d", 10 );
          /* can use multiple formatter */
-         System.out.printf("\nThe floating %f and boolean %b", 10,3f, false);
-         
+         System.out.printf("\nThe floating %f and boolean %b", 10.3f, false);
+
 
 
     }
