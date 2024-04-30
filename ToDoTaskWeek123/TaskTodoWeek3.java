@@ -184,12 +184,12 @@ public class TaskTodoWeek3 {
                    area = length * width;
                    break;
                case 3:
-                   System.out.println("Enter the side length of the square:");
+                   System.out.println("enter the side length of the square:");
                    double side = scan.nextDouble();
                    area = side * side;
                    break;
                case 4:
-                   System.out.println("Enter the base and height of the triangle:");
+                   System.out.println("enter the base and height of the triangle:");
                    double base = scan.nextDouble();
                    double height = scan.nextDouble();
                    area = 0.5 * base * height;
@@ -200,7 +200,7 @@ public class TaskTodoWeek3 {
            }
    
            if (choice >= 1 && choice <= 4) {
-               System.out.println("The area of the chosen shape is: " + area);
+               System.out.println("The area of the shape is: " + area);
            }
    
            scan.close();
