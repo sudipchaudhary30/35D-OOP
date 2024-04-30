@@ -81,8 +81,8 @@ public class TaskTodoWeek3 {
            // 1. Write a Java program that takes a student's grade as input (A, B, C, D, or F) and
            //  converts it to the corresponding GPA value. Use a switch case statement to handle different grades
            System.out.println("Enter your grade");
-           String s = scan.nextLine();
-           char grade = s.charAt(0);
+           String sa = scan.nextLine();
+           char grade = sa.charAt(0);
            switch (grade) {
                case 'A':
                    System.out.println("4.0");
@@ -107,23 +107,23 @@ public class TaskTodoWeek3 {
            // 2. Create a Java program that takes two numbers and an operator (+, -, *, /) as 
            // inputs and performs the corresponding arithmetic operation using a switch case statement.
            System.out.println("Enter first number");
-           int a = scan.nextInt();
+           int ab = scan.nextInt();
            System.out.println("Enter operator");
            char op = scan.next().charAt(0);
            System.out.println("Enter the second number");
-           int b = scan.nextInt();
+           int bc = scan.nextInt();
            switch (op) {
                case '+':
-                   System.out.println("The addition is " + a+b);
+                   System.out.println("The addition is " + ab+bc);
                    break;
                case '-':
-                   System.out.println("The subtraction is " + (a-b));
+                   System.out.println("The subtraction is " + (ab-bc));
                    break;
                case '*':
-                   System.out.println("The multiplication is " + a*b);
+                   System.out.println("The multiplication is " + ab*bc);
                    break;
                case '/':
-                   System.out.println("The divison is " + a/b);
+                   System.out.println("The divison is " + ab/bc);
                    break;
                default:
                System.out.println("not found");
@@ -133,8 +133,8 @@ public class TaskTodoWeek3 {
            // 3. Write a Java program that takes an integer input (1 to 12) representing a month and 
            // prints the corresponding season (e.g., 1-3: Winter, 4-6: Spring, 7-9: Summer, 10-12: Fall) using a switch case
            System.out.println("Enter the number between 1 to 12");
-           int a = scan.nextInt();
-           switch (a) {
+           int ac = scan.nextInt();
+           switch (ac) {
                case 1:
                case 2:
                case 3:
