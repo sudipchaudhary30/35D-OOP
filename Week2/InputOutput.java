@@ -24,20 +24,20 @@ public class InputOutput {
          /*User Input
           * import java.util.Scanner; // copy this line at the top of the code
           */
-        //   Scanner scan = new Scanner(System.in);
-        //   System.out.println("The following take whole sentence");
-        //   String wholeOutput = scan.nextLine();
-        //   System.out.println("The input taken is"  + wholeOutput);
-        //   System.out.println("The following takes integer");
-        //   int intInput = scan.nextInt();
-        //   System.out.println("The input taken is " + intInput);
-        //   System.out.println("The following takes double");
-        //   double doubleInput = scan.nextDouble();
-        //   System.out.println("The input take is" + doubleInput);
-        //   System.out.println("The following takes boolean");
-        //   boolean booleanInput = scan.nextBoolean();
-        //   System.out.println("The input is " + booleanInput);
-        //   scan.close(); // you must close the scanner once all input is taken
+           Scanner scan = new Scanner(System.in);
+          System.out.println("The following take whole sentence");
+           String wholeOutput = scan.nextLine();
+           System.out.println("The input taken is"  + wholeOutput);
+           System.out.println("The following takes integer");
+          int intInput = scan.nextInt();
+         System.out.println("The input taken is " + intInput);
+          System.out.println("The following takes double");
+          double doubleInput = scan.nextDouble();
+           System.out.println("The input take is" + doubleInput);
+          System.out.println("The following takes boolean");
+          boolean booleanInput = scan.nextBoolean();
+           System.out.println("The input is " + booleanInput);
+         scan.close(); // you must close the scanner once all input is taken
 
           /*Task
            * Make a new scanner object scan1
