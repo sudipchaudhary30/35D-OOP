@@ -10,7 +10,7 @@ public class JavaArgument {
         System.out.println("First args is " + args[0]);
         System.out.println("Second arg is " + args[1]);
         // converts strings into integers/ must pass number in  2nd args
-        int argInt = Integers.paresInt(arg[1]);
+        // int argInt = Integers.paresInt(arg[1]);
     } 
     
 }
